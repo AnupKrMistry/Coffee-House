@@ -1,0 +1,67 @@
+*, body{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #e8edfd;
+}
+header{
+    height: 50vh;
+    text-align: center;
+    background-image: url(img/im6.png);
+    background-size: cover;
+    background-color: #52a6b4;
+    box-shadow: 0 0 20px;
+    margin-bottom: 40px;
+}
+header input{
+    position: sticky;
+    top: 65px;
+    background-color: rgba(179, 197, 179, 0.925);
+    font-size: 14px;
+    padding: 16px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    height: 30px;
+    width: 60%;
+    color: #4e4e4e;
+}
+input:focus{
+    background-color: rgba(204, 221, 215, 0.849);   
+}
+.dd{
+    height: 50vh;
+    background-color: #00000067;
+}
+.coffee_type{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px;
+}
+.coffee_type p{
+    font-weight: bold;
+    color: #2e2e2e;
+}
+.coffeex{
+    background-color: #e6dfc3b2;
+    margin: 50px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    color: #503a43;
+}
+.coffeex p, ol{
+    margin-top: 20px;
+}
+ol > li {
+    padding: 5px;
+}
